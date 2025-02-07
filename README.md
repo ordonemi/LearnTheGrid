@@ -13,7 +13,7 @@ This project is a **simple, foundational website** designed to build strong web 
 - **CSS** – For styling and layout.   
 
 ### Demonstration
-Navigate to this [Learn the Grid]() to view the full website.
+Navigate here [Learn the Grid](https://ordonemi.github.io/LearnTheGrid/) to view the full website.
 
 ### Future Enhancements  
 - **Responsive Layout** - Optimize website for mobile viewing
