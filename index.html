@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="content">
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/logo.png" alt="Learn the Grid Logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="races.html">How Do Races Work?</a>
+            <a href="teams.html">Teams and Points</a>
+        </nav>
+    </header>
+    <h1 class="home-title">What is Formula 1?</h1>
+    <main>
+        <div class="top">
+            <p>Formula One is quickly becoming one of the most popular sports worldwide. It is classified as “the highest class of international racing for single-seater formula racing cars.” However, its origins can be traces back to the European Championship of the 1930s. After WWII, motor-racing enthusiasts led to the first ever Formula Grand Prix event held in Turin during 1946. A year later the World Drivers' Championship was formalized. Following that, the first world championship Formula One race took place on May of 1950 in the Great Britain, but it wasn’t until 1981 when the competition formally became known as the FIA Formula One World Championship.</p>
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <img src="images/rsz_home_car.jpg" alt="Formula 1 car">
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="images/rsz_slideshow_1.jpg" alt="Formula 1 car">
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="images/rsz_slideshow_2.jpg" alt="Formula 1 car">
+                </div>           
+              <br>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>A Formula One season consists of several races held in different circuits all over the world. These races are referred to as a Grand Prix, which is a French word meaning “grand prize” in English. Throughout the races all participating teams must adhere to a set of rules, or a “formula”, established by the FIA, and the circuits in which the races are held are graded “1” by that same organization. Therefore, this competition was named Formula 1.</p>
+            <img class="home-circuit" src="images/rsz_home_circuit.jpg" alt="Formula 1 circuit">
+        </div>
+    </main>
+    <footer>
+        <p>Learn the Grid &copy; 2022 - Emilio Ordonez Guerrero</p>
+        <p>
+            <a href="site-plan.html">Site Plan</a>
+        </p>
+        <p>
+            <a href="https://www.formula1.com/">Learn More</a>
+        </p>
+    </footer>
+    </div>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 5000); // Change image every 2 seconds
+        }
+    </script>
+</body>
+</html>
