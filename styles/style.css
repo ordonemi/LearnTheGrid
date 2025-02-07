@@ -104,12 +104,17 @@ footer p {
 footer a {
     text-decoration: none;
     padding: 20px;
+    color: #3c1518;
 }
 
 footer a:hover {
     color: #f2f3ae;
     background-color: #69140e;
     text-decoration: underline;
+}
+
+footer a:visited {
+    color: #3c1518;
 }
 
 /* slideshow css */
@@ -144,6 +149,7 @@ footer a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 100px;
+    padding: 0 4rem;
 }
 
 .races-top p:nth-of-type(2) {
@@ -178,6 +184,7 @@ footer a:hover {
 .races-middle {
     display: grid;
     grid-template-rows: 30% 70%;
+    padding: 0 4rem;
 }
 
 .races-middle p {
@@ -208,6 +215,7 @@ footer a:hover {
     color: #69140e;
     text-align: center;
     margin-bottom: 150px;
+    padding: 0 4rem;
 }
 
 /* Teams and Points CSS */
@@ -217,6 +225,7 @@ footer a:hover {
     grid-template-rows: 1fr 1fr;
     margin-top: 50px;
     margin-bottom: 100px;
+    padding: 0 4rem;
 }
 
 .point-title {
@@ -258,6 +267,7 @@ footer a:hover {
     display: grid;
     grid-template-rows: 30% 70%;
     margin-bottom: 100px;
+    padding: 0 4rem;
 }
 
 .teams-middle p {
@@ -280,6 +290,10 @@ footer a:hover {
     text-align: center;
 }
 
+.teams-bottom {
+    padding: 0 4rem;
+}
+
 .teams-bottom p {
     line-height: 2em;
     font-size: 18px;
@@ -287,4 +301,3 @@ footer a:hover {
     text-align: center;
     margin-bottom: 250px;
 }
-
